@@ -46,7 +46,7 @@ height: 100vh;
 }
 .logo{
     padding-right: 20%;
-    margin-left: 49px;
+    margin-left: 70px;
     color: #fff;
 
 }
@@ -76,8 +76,8 @@ height: 100vh;
 /* form styling here.. */
 .form{
     position: relative;
-    left: 150px;
-    top:110px;
+    left: 120px;
+    top:90px;
     border: 1px solid;
     border-color: #fff;
     width: 530px;

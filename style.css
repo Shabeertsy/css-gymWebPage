@@ -1,0 +1,148 @@
+@import url('https://fonts.googleapis.com/css2?family=Bree+Serif&family=Noto+Sans+Vai&family=Roboto&display=swap');
+
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Bree Serif', serif;
+fo
+
+}
+
+
+.section{
+    background-image: url('./images/cover.jpg');
+background-size: cover;
+background-repeat: no-repeat;
+height: 100vh;
+
+}
+
+/* give  shadow to the background image */
+.shadow{
+    background-color: rgb(0, 0, 0,0.8);
+    width: 100%;
+    height: 100vh;
+}
+
+
+
+/* styling the navbar on the  web page */
+.navbar{
+    position: relative;
+    top: 20px;
+    width: 100%;
+}
+
+.links{
+   
+    display: flex;
+    padding-top: 20px;
+  
+}
+.logo{
+    padding-right: 20%;
+    margin-left: 49px;
+    color: #fff;
+
+}
+.links a{
+    color: #fff;
+    font-size: 1.5rem;
+    text-decoration: none;
+    margin-left: 48px;
+}
+
+/* navar buttons design */
+.button{
+    margin-left: 27%;
+
+    margin-top: 6px;
+}
+.buttons{
+    height: 30px;
+    margin-left: 6px;
+    background-color:rgb(0,0,0,0.2);
+    color: #fff;
+    border: 1px solid;
+    border-radius: 8px;
+    width: 90px;
+}
+
+/* form styling here.. */
+.form{
+    position: relative;
+    left: 150px;
+    top:110px;
+    border: 1px solid;
+    border-color: #fff;
+    width: 530px;
+    height: 630px;
+    border-radius: 12px;
+
+}
+.form-heading{
+    color: #fff;
+    padding-bottom: 10px;
+    margin-top: 70px;
+    margin-left: 20px;
+    
+}
+.inp{
+
+    position: relative;
+    left: 40px;
+    margin-top: 25px;
+    width: 450px;
+    height: 45px;
+    background-color: rgb(0, 0, 0,0.1);
+    color: #fff;
+    border: 1px solid;
+    border-radius: 8px;
+    font-size: 1.1rem;
+
+}
+.submit-button{
+    font-size: 1rem;
+    position: relative;
+    left: 210px;
+    margin-top: 30px;
+    width: 110px;
+    height: 30px;
+    border: 1px solid;
+    border-radius: 6px;
+    background-color: rgb(18, 208, 18);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* button hover effects */
+.buttons:hover{
+cursor: pointer;
+color: black;
+background-color: #fff;
+}
+.submit-button:hover{
+    color:green;
+    background-color: black;
+}
